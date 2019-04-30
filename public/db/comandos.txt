@@ -1,0 +1,14 @@
+use webmaker
+
+db.usuarios.insertOne({nombre: "Alexis", apellido: "Madrid", nombreUsuario: "alexis.madrid", correo: "alexemadrid@hotmail.com", contrasenia: "asd.123", genero: "Masculino", fechaNacimiento: "26/09/1995", foto: "sin-foto.jpg"})
+db.usuarios.insertOne({nombre: "Teffy", apellido: "Aguilar", nombreUsuario: "teffy.aguilar", correo: "teffyA@hotmail.com", contrasenia: "asd.456", genero: "Femenino", fechaNacimiento: "16/04/2000", foto: "sin-foto.jpg"})
+db.usuarios.insertOne({nombre: "Francisco", apellido: "Madrid", nombreUsuario: "francisco.madrid", correo: "famt@gmail.com", contrasenia: "123.asd", genero: "Masculino", fechaNacimiento: "21/09/1999", foto: "sin-foto.jpg"})
+db.usuarios.insertOne({nombre: "Yoo", apellido: "Kim", nombreUsuario: "kim.yoo", correo: "kimyoo@gmail.com", contrasenia: "456.asd", genero: "Femenino", fechaNacimiento: "01/07/1980", foto: "sin-foto.jpg"})
+
+db.membresias.insertOne({tipoMembresia: "Free", precio: 0, almacenamiento: "0 GB", fechaInicio: "06/04/2019", usuarios: [])
+db.membresias.insertOne({tipoMembresia: "Premium", precio: 30, almacenamiento: "50 GB", fechaInicio: "06/06/2020", usuarios: []})
+db.membresias.insertOne({tipoMembresia: "Pro", precio: 50, almacenamiento: "ilimitado", fechaInicio: "10/10/2022", usuarios: []})
+
+db.tarjetas.insertOne({propietario: "",numeroTarjeta : "1223 3457 8564 8947",ccv : "123", fechaVencimiento: "01/01/2001"})
+
+db.proyectos.insertOne({usuario: "",nombre: "Desarrollo web", descripcion : "Este es el proyecto de experto uwu", fecha: "06/06/6666", tamanio : "50MB",carpeta : {"html" : ["home.html", "login.html", "principal.html", "registro.html"], "css" : ["estilos.css"], "js" : ["controlador.js"]}})

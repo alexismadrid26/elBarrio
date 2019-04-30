@@ -1,0 +1,232 @@
+/*HOME.html*/
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+#principal-nav-sm {
+    background-color:rgb(0, 0, 0);
+    background-image: url(../img/img-05.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+    width: 100%; 
+    height: 100vh;
+}
+
+#principal-nav {
+    background-color:rgb(0, 0, 0);
+    background-image: url(../img/img-08.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+    width: 100%; 
+    height: 100vh;
+}
+
+/*
+#modA a {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #FFFFFF;
+}
+*/
+
+#principal-nav-img {
+    background-color:rgba(0, 0, 0, 0.65);
+    color:white;
+    position:absolute;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0
+}
+#principal-body{
+    /*width: 321px;
+    background-color: #000000b3;
+    border-radius: 8px;
+    height: 500px;
+    padding: 40px 60px 40px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    */
+    width: 400px;
+    height: 100px;
+
+    /*background-color: #000000b3;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+#bodymain{
+    width: 100%; 
+    height: 100vh;
+}
+
+
+
+/*LOGIN.html*/
+#formulario-login{
+    /*width: 321px;
+    background-color: #000000b3;
+    border-radius: 8px;
+    height: 500px;
+    padding: 40px 60px 40px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    */
+    width: 321px;
+    height: 550px;
+
+    /*background-color: #000000b3;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#formulario-login h1 {
+    /*font-family: FuenteExotica, 'Helvetica Neue',Helvetica,Arial,sans-serif;*/
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #000000b3;
+}
+
+#body-login {
+    background-color:rgb(0, 0, 0);
+    background-image: url(../img/img-07.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+#body-login-img {
+    background-color:rgba(0, 0, 0, 0.65);
+    color:white;
+    position:absolute;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0
+}
+
+
+/*REGISTRO.html*/
+#formu-registro{
+    /*width: 321px;
+    background-color: #000000b3;
+    border-radius: 8px;
+    height: 500px;
+    padding: 40px 60px 40px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    */
+    width: 321px;
+    height: 750px;
+
+    /*background-color: #000000b3;*/
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#formu-registro h1 {
+    /*font-family: FuenteExotica, 'Helvetica Neue',Helvetica,Arial,sans-serif;*/
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #000000b3;
+}
+
+#body-registro {
+    background-color:rgb(0, 0, 0);
+    background-image: url(../img/img-09.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+#body-registro-img {
+    background-color:rgba(0, 0, 0, 0.65);
+    color:white;
+    position:absolute;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0
+}
+
+
+
+/*INICIO.html*/
+
+
+
+/*PRINCIPAL.html*/
+#buscar-principal{
+    background-image: url(../img/img-01.jpg);
+    height: 60%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+#buscar-img-principal{
+    background-color:rgba(0, 0, 0, 0.65);
+    color:white;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 300px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    }
+
+    
