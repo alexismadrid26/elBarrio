@@ -11,6 +11,9 @@ var app = express();
 app.use(express.static("public"));
 app.use(session({secret:"ASDFE$%#%",resave:true, saveUninitialized:true}));
 
+var server_port = process.env.YOUR_PORT || process.env.PORT || 3333;
+var server_host = process.env.YOUR_HOST || '0.0.0.0';
+
 // app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
@@ -19,6 +22,6 @@ app.use("/proyectos",proyectosRouter);
 app.use("/principal",principalRouter);
 
 
-app.listen(process.env.PORT || 3333,function(){
+app.listen(server_port, server_host,function(){
     console.log("Servidor en linea");
 });
