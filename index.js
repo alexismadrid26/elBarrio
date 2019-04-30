@@ -1,6 +1,7 @@
 var express = require("express");
 var session = require("express-session");
 var bodyParser = require("body-parser");
+var http = require('http');
 //var database = require("./modules/database");
 var usuariosRouter = require('./routers/usuarios-router');
 var proyectosRouter = require('./routers/proyectos-router');
@@ -18,7 +19,7 @@ app.use("/usuarios",usuariosRouter);
 app.use("/proyectos",proyectosRouter);
 app.use("/principal",principalRouter);
 
+var port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
 
-app.listen(process.env.PORT || 5000,function(){
-    console.log("Servidor en linea");
-});
+var server = http.createServer(app);
